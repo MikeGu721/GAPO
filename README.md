@@ -1,11 +1,10 @@
 
 # GAPO: Learning Preferential Prompt through Generative Adversarial Policy Optimization
-
-[[arXiv Paper]](https://arxiv.org/abs/2503.20194) • [[OpenRLHF Framework]](https://github.com/OpenRLHF/OpenRLHF)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)  [![arXiv Paper](https://img.shields.io/badge/arXiv-2504.00756-b31b1b.svg)](https://arxiv.org/abs/2503.20194)
 
 Official implementation of the paper *"GAPO: Learning Preferential Prompt through Generative Adversarial Policy Optimization"*. This repository is built upon the [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF) framework with modifications for GAPO implementation.
 
-![GAPO Framework Diagram](docs/gapo_framework.png)
+![GAPO Framework Diagram](figs/method.png)
 
 ## Overview
 GAPO introduces a novel framework combining GAN-based training dynamics with encoder-only reward models for constrained text generation. Key features:
